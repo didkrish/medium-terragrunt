@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  aws-terragrunt: smarshorbs/aws-terragrunt@x.y.z
+  aws-terragrunt: smarshorbs/aws-terragrunt@2.2.0
 jobs:
   terraform:
     executor: aws-terragrunt/default
