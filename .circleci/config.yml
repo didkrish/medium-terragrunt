@@ -1,0 +1,8 @@
+version: 2.1
+orbs: 
+  terragrunt: kchultman/terragrunt@0.1.12
+executor:
+  name: terraform_executor
+steps:
+  - terragrunt_validate_all
+  
