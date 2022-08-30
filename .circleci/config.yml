@@ -18,5 +18,5 @@ workflows:
     jobs:
       - terraform:
           context:
-            - Dev
+            - eu-west-1
 
